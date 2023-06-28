@@ -9,3 +9,4 @@ facts
 3. stop_words를 사용하여 불용어 제거(facts)
 4. 추가 전처리 방안 고민 필요...
 5. 모델은 딥러닝은 LSTM, BERT/ 머신러닝은 다양하게 사용할 에정
+https://wikidocs.net/21707 참고..
