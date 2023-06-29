@@ -4,3 +4,6 @@ jhs_legal
 __pycache__
 data
 data.zip
+X_test.csv
+X_train.csv
+y_train.csv
