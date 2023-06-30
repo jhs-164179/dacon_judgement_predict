@@ -1,0 +1,26 @@
+#######################
+# Train, Validation 분리
+tr_df = pd.DataFrame(X_train)
+tr_df['target'] = y_train
+
+val_df = tr_df[tr_df['target'] == 1].sample(250, random_state=42)
+val_df_2 = tr_df[tr_df['target'] == 0].sample(250, random_state=42)
+val_df = pd.concat([val_df, val_df_2])
+
+tr_df.drop(index=val_df.index, inplace=True)
+
+X_train = tr_df.drop('target', axis=1).to_numpy()
+y_train = tr_df['target']
+
+X_val = val_df.drop('target', axis=1).to_numpy()
+y_val = val_df['target']
+
+# 불균형 데이터 비율 확인
+print('Train target')
+display(y_train.value_counts())
+print('='*20)
+print('Validation target')
+display(y_val.value_counts())
+
+# 언더 샘플링
+X_nc, y_nc = NeighbourhoodCleaningRule(n_neighbors=5).fit_resample(X_train, y_train)
