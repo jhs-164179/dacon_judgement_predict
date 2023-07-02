@@ -1,9 +1,10 @@
 def preprocessing(df, cols, shortword, tokenizer, stopword, lemmatizer):
+    import numpy as np
+    import re
+    
     first_party_lst = []
     second_party_lst = []
     facts_lst = []
-    import numpy as np
-    import re
     for col in cols:
         # 좌우 공백 제거
         df[col] = df[col].str.strip()
