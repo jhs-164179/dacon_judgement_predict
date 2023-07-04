@@ -2,7 +2,7 @@
 <b>링크</b> : https://dacon.io/competitions/official/236112/overview/description<br>
 <b>내 점수(Accuracy)</b> : 0.54354(3등)<br>
 <b>1등 점수</b> : 0.57258<br>
-
+<hr>
 <b>[Private 3rd] Downsampling + LogisticRegression</b><br>
 <br>
 다양한 모델을 테스트해본 결과 학습시간 대비 score가 비슷해서 머신러닝 모델을 사용했습니다.<br>
@@ -14,7 +14,8 @@ train_test_split함수를 이용하여 train데이터의 25%를 validation으로
 <br>
 더 테스트해볼게 많았는데 다 해보지는 못해서 아쉽지만, 최선을 다한 결과에 만족스럽고 재밌었습니다.<br>
 다들 앞으로도 화이팅하시고 좋은 결과 있으시길 기원합니다! 감사합니다!!<br>
-<br> 
+<br>
+<hr>
 <b>[폴더 및 파일 설명]</b><br>
 <b>data폴더 :</b> 경진대회에 사용한 데이터 셋<br>
 <b>old :</b> 테스트해보면서 작성한 코드 및 결과파일<br>
