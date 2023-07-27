@@ -19,8 +19,12 @@ train_test_split함수를 이용하여 train데이터의 25%를 validation으로
 <b>[폴더 및 파일 설명]</b><br>
 <b>data폴더 :</b> 경진대회에 사용한 데이터 셋<br>
 <b>(데이터 셋은 위 경진대회 링크에 접속하여 다운로드 필요)</b><br>
+<br>
 <b>old :</b> 테스트해보면서 작성한 코드 및 결과파일<br>
+<br>
 <b>final_submission.ipynb :</b> 최종적으로 작성한 제출 코드<br>
+<br>
 <b>logi__2.csv :</b> 최종 결과파일<br>
+<br>
 <b>utils_two.py :</b> 함수 import용 파일<br>
 (원래는 함수가 길어서 utils_two에서 import 해서 썼음)<br>
